@@ -1,0 +1,43 @@
+.body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    background:rgb(236, 236, 236);
+    color: #616060;
+    margin:10%;
+}
+.card-login {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fcfdfd;
+    background-clip: border-box;
+    border-radius: 5px;
+    margin-left: 35%;
+    box-shadow: -3px 7px 12px 0px #cfcaca;
+}
+.card-title{
+    padding-bottom: 10px;
+}
+.card-form{
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 65px;
+}
+.form-input{
+    border-radius: 5px;
+    padding:7px;
+    border-width: 1px;
+    border-color: gray;
+    border-top-color: gray;
+}
+.btn-info {
+    color: #fff;
+    background-color: #a98df5;
+    border-color: #a681d8;
+    border-radius: 5px;
+}
